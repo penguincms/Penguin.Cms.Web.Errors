@@ -1,0 +1,11 @@
+Penguin.Cms.Errors
+Penguin.Auditing.Abstractions
+Penguin.Cms.Entities
+Penguin.Persistence.Abstractions
+Penguin.Entities.Abstractions
+Penguin.Reflection.Extensions
+Penguin.Extensions.String
+Penguin.Reflection.Abstractions
+Penguin.Extensions.Exceptions
+Penguin.Security.Abstractions
+Penguin.Web.Abstractions
