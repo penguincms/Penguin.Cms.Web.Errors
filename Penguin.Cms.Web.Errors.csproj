@@ -10,8 +10,8 @@
     <DocumentationFile>Penguin.Cms.Web.Errors.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Abstractions" Version="5.0.1-T9ZTQVZ" />
-    <PackageReference Include="Penguin.Security.Abstractions" Version="5.0.1-T9ZTQVZ" />
-    <PackageReference Include="Penguin.Cms.Errors" Version="5.0.1-T9ZTQVZ" />
+    <PackageReference Include="Penguin.Web.Abstractions" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Security.Abstractions" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Cms.Errors" Version="5.0.1-TA29PDE" />
   </ItemGroup>
 </Project>
