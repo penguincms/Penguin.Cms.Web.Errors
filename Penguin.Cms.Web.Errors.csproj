@@ -12,6 +12,6 @@
   <ItemGroup>
     <PackageReference Include="Penguin.Web.Abstractions" Version="5.0.1-TA2OIRX" />
     <PackageReference Include="Penguin.Security.Abstractions" Version="5.0.1-TA2OIRX" />
-    <PackageReference Include="Penguin.Cms.Errors" Version="5.0.1-TA2OIRX" />
+    <PackageReference Include="Penguin.Cms.Errors" Version="5.0.1-TA2VU4J" />
   </ItemGroup>
 </Project>
