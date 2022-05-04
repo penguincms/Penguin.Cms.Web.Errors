@@ -40,7 +40,7 @@ namespace Penguin.Cms.Web.Errors.Middleware
 
                 IRepository<AuditableError> errorRepository = context.RequestServices.GetService<IRepository<AuditableError>>();
 
-                errorRepository.TryAdd(ex, false, context.Request.Path.Value, context.RequestServices.GetService<IUserSession>()?.LoggedInUser?.Guid);
+                _ = errorRepository.TryAdd(ex, false, context.Request.Path.Value, context.RequestServices.GetService<IUserSession>()?.LoggedInUser?.Guid);
 
                 throw;
             }
