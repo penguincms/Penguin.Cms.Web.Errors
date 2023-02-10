@@ -19,7 +19,7 @@ namespace Penguin.Cms.Web.Errors.Middleware
         //TODO: Learn what this is
         public ExceptionLogging(RequestDelegate next)
         {
-            this._next = next;
+            _next = next;
         }
 
         public async Task Invoke(HttpContext context)
@@ -31,7 +31,7 @@ namespace Penguin.Cms.Web.Errors.Middleware
 
             try
             {
-                await this._next(context).ConfigureAwait(false);
+                await _next(context).ConfigureAwait(false);
             }
             catch (Exception ex)
             {
